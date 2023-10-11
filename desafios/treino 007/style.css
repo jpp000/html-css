@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.container{
+    height: 500px;
+    width: 100vh;
+    margin: auto;
+    background-color: burlywood;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+    
+}
