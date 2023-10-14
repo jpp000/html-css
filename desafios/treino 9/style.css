@@ -53,12 +53,15 @@ main{
 
 }
 
-article{
+section{
     max-width: 100vh;
     height: 80vh;
     margin: auto;
-    background-color: #F2E3D5   ;
+    background-color: #ffff  ;
+    padding: 10px;
+    text-align: justify;
 }
+
 
 footer{
     height: 5vh;
