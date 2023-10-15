@@ -288,6 +288,11 @@ i {
   color: #fff;
 }
 
+.footer-icons a:hover i {
+  animation: translateY 0.8s infinite alternate;
+  color: #d34040;
+}
+
 .btn-whatsap {
   position: fixed;
   bottom: 20px;
