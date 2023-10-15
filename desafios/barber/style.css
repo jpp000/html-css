@@ -282,9 +282,13 @@ i {
   color: #fff;
 }
 
+#creditos {
+  font-size: 0.7em;
+}
+
 .footer-icons {
   display: flex;
-  gap: 8px;
+  gap: 14px;
   color: #fff;
 }
 
@@ -293,6 +297,14 @@ i {
   color: #d34040;
 }
 
+@keyframes translateY {
+  from {
+    transform: translateY(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
 .btn-whatsap {
   position: fixed;
   bottom: 20px;
